@@ -15,5 +15,11 @@
        "dest": "server.js"
      }
    ],
-   "public": true
+   "public": true,
+   "functions": {
+    "api/*": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
  }
